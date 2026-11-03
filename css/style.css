@@ -28,3 +28,6 @@
 
 /* Etex Promat technical visualization gallery */
 .etex-gallery figure{margin:0;min-width:0}.etex-gallery img{display:block;width:100%;height:auto;background:#1c221e}.etex-gallery figcaption{font:10px 'DM Mono',monospace;letter-spacing:.07em;color:var(--acid);padding:12px 0 0}.etex-overview{margin-bottom:28px!important}.etex-details{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}.etex-details img{aspect-ratio:4/3;object-fit:contain;background:#161a18}@media(max-width:760px){.etex-overview{margin-bottom:18px!important}.etex-details{grid-template-columns:1fr;gap:24px}.etex-details img{aspect-ratio:auto}}
+
+/* FPV / Point Cloud case-study stills */
+.fpv-study-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}.fpv-study-grid figure{margin:0;min-width:0}.fpv-study-grid img{display:block;width:100%;aspect-ratio:16/10;object-fit:cover;background:#1c221e}.fpv-study-grid figcaption{font:10px "DM Mono",monospace;letter-spacing:.07em;color:var(--acid);padding:12px 0}@media(max-width:760px){.fpv-study-grid{grid-template-columns:1fr;gap:20px}}

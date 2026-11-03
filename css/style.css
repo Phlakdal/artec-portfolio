@@ -31,3 +31,6 @@
 
 /* FPV / Point Cloud case-study stills */
 .fpv-study-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}.fpv-study-grid figure{margin:0;min-width:0}.fpv-study-grid img{display:block;width:100%;aspect-ratio:16/10;object-fit:cover;background:#1c221e}.fpv-study-grid figcaption{font:10px "DM Mono",monospace;letter-spacing:.07em;color:var(--acid);padding:12px 0}@media(max-width:760px){.fpv-study-grid{grid-template-columns:1fr;gap:20px}}
+
+/* Peugeot Mill product visualization stills */
+.peugeot-studies figure{margin:0;min-width:0}.peugeot-studies img{display:block;width:100%;height:auto;background:#1c221e}.peugeot-studies figcaption{font:10px "DM Mono",monospace;letter-spacing:.07em;color:var(--acid);padding:12px 0}.peugeot-feature{margin-bottom:22px!important}.peugeot-studies-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}.peugeot-studies-grid img{aspect-ratio:16/10;object-fit:contain}@media(max-width:760px){.peugeot-studies-grid{grid-template-columns:1fr;gap:18px}.peugeot-studies-grid img{aspect-ratio:auto}}

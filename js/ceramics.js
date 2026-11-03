@@ -1,5 +1,5 @@
 /* Sketchfab oEmbed thumbnails: use a local gallery image as fallback if unavailable. */
-const ceramicFallback='../assets/images/marta-anglada/Marta%20Anglada%20-%20gallery%20test%206.png';
+const ceramicFallback='';
 const ceramicThumbs=new Map();
 async function getCeramicThumbnail(model){
   if(ceramicThumbs.has(model))return ceramicThumbs.get(model);
@@ -11,8 +11,8 @@ async function getCeramicThumbnail(model){
   return request;
 }
 function setCeramicPreview(img,model){
-  img.src=ceramicFallback;
-  getCeramicThumbnail(model).then(url=>{if(img.isConnected)img.src=url});
+  img.removeAttribute('src');
+  getCeramicThumbnail(model).then(url=>{if(img.isConnected&&url)img.src=url});
 }
 function createCeramicPlaceholder(number,model){
   const placeholder=document.createElement('div');placeholder.className='embed-placeholder embed-preview';
